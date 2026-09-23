@@ -1,5 +1,7 @@
 {
   "rewrites": [
-    { "source": "/ifsc", "destination": "/api/ifsc" }
+    { "source": "/ifsc", "destination": "/api/ifsc" },
+    { "source": "/ifsc/", "destination": "/api/ifsc" },
+    { "source": "/", "destination": "/api/ifsc" }
   ]
 }
